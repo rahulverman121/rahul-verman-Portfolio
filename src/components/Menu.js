@@ -17,9 +17,12 @@ function Menu() {
             <section class="contacts">
                 <a href="https://github.com/rahulverman121/">
                 <FaGithub size="1.2rem" class="icons"/></a>&nbsp;&nbsp;
-                <FaLinkedin size="1.2rem" class="icons"/>&nbsp;&nbsp;
-                <FaInstagram size="1.2rem" class="icons" />&nbsp;&nbsp;
-                <SiGmail size="1.2rem" class="icons" />&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/in/rahul-verman-677839150/">
+                <FaLinkedin size="1.2rem" class="icons"/></a>&nbsp;&nbsp;
+                <a href="https://www.instagram.com/rahul.verman.121/">
+                <FaInstagram size="1.2rem" class="icons" /></a>&nbsp;&nbsp;
+                <a href="mailto:rahulverman44@gmail.com">
+                <SiGmail size="1.2rem" class="icons" /></a>&nbsp;&nbsp;
             </section>
         </section>
     );
