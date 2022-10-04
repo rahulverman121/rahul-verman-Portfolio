@@ -1,0 +1,51 @@
+#menu {
+    
+    padding: 5.5rem 0 2.5rem 0;
+    width : 20rem;
+    background : rgba(0,0,0,0.87);
+    font-weight: 700;
+    color : #fff ; 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    
+    border-right: 1px double #000;
+}
+.logo {
+    font-size: 5rem;
+    padding : 0 0.8rem;
+    border: 0.5rem solid #d4aa8c ; 
+    border-radius: 45% 1rem 50% 1rem;
+    margin-bottom: 15%;  
+    cursor : pointer
+}
+.menuitems {
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+.menuitem {
+    padding : 0.35rem ;
+    width : 6rem ;
+    margin-bottom: 0.5rem ;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    font-size: 0.9rem;
+    align-items: center;
+    text-align: center;
+    cursor : pointer ;
+}
+.menuitem:hover {
+    color : #d4aa8c ;
+    text-shadow: 0 0 2.5rem #fff;
+}
+.menuicon {
+    margin-right: 1.1rem;
+}
+.contacts {
+    margin-top: 3rem;
+}
+.icons:hover {
+    cursor : pointer ;
+    box-shadow: 0 0 1rem #d4aa8c;
+}
