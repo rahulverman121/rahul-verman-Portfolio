@@ -15,7 +15,8 @@ function Menu() {
             <div class="menuitem"><AiFillWechat size="1.1rem" class="menuicon"/>Contact</div>
             </section>
             <section class="contacts">
-                <FaGithub size="1.2rem" class="icons"/>&nbsp;&nbsp;
+                <a href="https://github.com/rahulverman121/">
+                <FaGithub size="1.2rem" class="icons"/></a>&nbsp;&nbsp;
                 <FaLinkedin size="1.2rem" class="icons"/>&nbsp;&nbsp;
                 <FaInstagram size="1.2rem" class="icons" />&nbsp;&nbsp;
                 <SiGmail size="1.2rem" class="icons" />&nbsp;&nbsp;
