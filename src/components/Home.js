@@ -5,7 +5,7 @@ function Home() {
     return (
         <section id="home">
             <div class="homeblog">
-                <div class="hometitle">Hello, my name is <i class="colo" >RAHUL VERMAN</i></div>
+                <div class="hometitle">Hello, my name is <i class="colo naam" >RAHUL VERMAN</i></div>
                 <div class="hometitle">I'm a <span class="colo">Web Developer</span> &amp;<span class="colo"> Software Engineer</span>|</div>
                 <div class="homeblog">I'm a Web Developer with critical thinking &amp; problem solving ability. 
                     My expertise is to create Responsive web pages, Hosting them, Database Mangement, Computer Programming and many more...  
