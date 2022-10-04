@@ -14,7 +14,7 @@ function Home() {
                 <button class="btn">Contact Me</button>
             </div>
             <div class="profile">
-                <img src={profile} class= "profileimg"/>
+                <img src={profile} alt="Profile | RAHUL VERMAN" class= "profileimg"/>
             </div>
         </section>
     );
