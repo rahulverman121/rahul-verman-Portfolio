@@ -8,14 +8,14 @@ function Menu() {
         <section id="menu">
             <div class="logo">RV</div>
             <section class="menuitems">
-            <div class="menuitem"><FaHome size="1.1rem" class="menuicon"/>Home</div>
-            <div class="menuitem"><FaIdCard size="1.1rem" class="menuicon"/>About</div>
-            <div class="menuitem"><FaList size="1.1rem" class="menuicon"/>Services</div>
-            <div class="menuitem"><FaUserTie size="1.1rem" class="menuicon"/>Portfolio</div>
-            <div class="menuitem"><AiFillWechat size="1.1rem" class="menuicon"/>Contact</div>
+            <a href="./home" class="menuitem"><FaHome size="1.1rem" class="menuicon"/>Home</a>
+            <a href="./about" class="menuitem"><FaIdCard size="1.1rem" class="menuicon"/>About</a>
+            <a href="./achivements" class="menuitem"><FaList size="1.1rem" class="menuicon"/>Achivements</a>
+            <a href="./portfolio" class="menuitem"><FaUserTie size="1.1rem" class="menuicon"/>Portfolio</a>
+            <a href="./contact" class="menuitem"><AiFillWechat size="1.1rem" class="menuicon"/>Contact</a>
             </section>
             <section class="contacts">
-                <a href="https://github.com/rahulverman121/" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/rahulverman121/" target="_blank" rel="noopener noreferrer">
                 <FaGithub size="1.2rem" class="icons"/></a>&nbsp;&nbsp;
                 <a href="https://www.linkedin.com/in/rahul-verman-677839150/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin size="1.2rem" class="icons"/></a>&nbsp;&nbsp;

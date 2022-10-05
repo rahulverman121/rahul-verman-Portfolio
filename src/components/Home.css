@@ -1,7 +1,8 @@
 #home {
     background: rgba(0,0,0,0.9);
     color: #fff;
-    width : 75%;
+    height : 31.89rem ;
+    height: 100% ;
     padding :  7rem 5rem ;
     display: flex;
     flex-direction: row-reverse;
@@ -20,6 +21,7 @@
     font-family: "Lucida Console";
     font-size: 1.75rem;
 }
+
 .homeblog {
     margin-top: 2rem ;
 }

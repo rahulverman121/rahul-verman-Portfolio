@@ -1,0 +1,74 @@
+
+#about {
+    background: var(--bgblack);
+    color: var(--textwhite);
+    
+    padding :  3rem 2rem ;
+    padding-right: 3.5rem;
+}
+.title {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.abouttitle {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem ;
+    margin-top: 4.5rem ;
+}
+.colo {
+    color: var(--themecolor);
+}
+.detailsec {
+    display: flex;
+    margin-top: 2.5rem ;
+}
+.aboutblog {
+    font-size: 1.1rem ;
+}
+.abt {
+    width : 50% 
+}
+.abtdetails {
+    display: flex;
+    flex-wrap : wrap;
+}
+.details {
+    flex-wrap: nowrap;
+    width: 40%;
+    margin-bottom: 0.7rem ;
+    margin-right: 2.5rem;
+}
+.abtdetail {
+    font-weight: 600;
+}
+.abtdata {
+    
+    margin-bottom: 1rem;
+}
+.skilltitle {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 2rem ;
+}
+.soft {
+    margin-top: 2rem;
+}
+.skillicon {
+    margin-right: 1rem;
+    font-size: 2.5rem ;
+    cursor : pointer ;
+}
+.softskills {
+    display: flex;
+    flex-wrap: wrap;
+}
+.softskill {
+    border: 0.1rem solid var(--themecolor);
+    padding : 0.6rem 1.2rem ;
+    background-color: var(--themecolor);
+    border-radius: 3rem;
+    margin : 0.5rem 1rem 1.1rem 0 ;
+    
+    cursor : pointer ;
+}

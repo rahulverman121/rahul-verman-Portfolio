@@ -1,7 +1,8 @@
 #menu {
     
     padding: 5.5rem 0 2.5rem 0;
-    width : 20rem;
+    width : 17rem;
+    
     background : rgba(0,0,0,0.87);
     font-weight: 700;
     color : #fff ; 
@@ -9,7 +10,7 @@
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    
+    position: sticky;
     border-right: 1px double #000;
 }
 .logo {
@@ -26,14 +27,19 @@
 }
 .menuitem {
     padding : 0.35rem ;
-    width : 6rem ;
+    width : 8rem ;
     margin-bottom: 0.5rem ;
     border-bottom: 1px solid #fff;
     display: flex;
     font-size: 0.9rem;
+    
+    text-decoration: none;
     align-items: center;
     text-align: center;
     cursor : pointer ;
+}
+a:visited,a:link {
+    color : var(--textwhite) ;
 }
 .menuitem:hover {
     color : #d4aa8c ;

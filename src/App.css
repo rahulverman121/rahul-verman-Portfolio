@@ -1,6 +1,18 @@
+:root {
+  --themecolor : #d4aa8c ;
+  --textwhite : #fff ; 
+  --bgblack : rgba(0,0,0,0.9);
+}
 .App {
   display: flex;
   height: 100%;
+  
+}
+.menuu {
+  position: fixed;
+}
+.maiin {
+  margin-left: 17rem;
   
 }
 
