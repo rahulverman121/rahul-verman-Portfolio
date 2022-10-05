@@ -17,7 +17,7 @@ function App() {
       <Menu />
       </span>
       <span class="maiin">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes basename={process.env.PUBLIC_URL}>
             <Route path="/" element={<Home/>}/>
             <Route index element={<Home/>}/>
