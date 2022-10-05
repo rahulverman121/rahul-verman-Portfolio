@@ -17,7 +17,7 @@ function App() {
       <Menu />
       </span>
       <span class="maiin">
-      <BrowserRouter basename="https://profound-fox-c71c66.netlify.app/">
+      <BrowserRouter>
             <Routes >
             <Route path="/" element={<Home/>}/>
             <Route index element={<Home/>}/>
