@@ -18,7 +18,7 @@ function App() {
       </span>
       <span class="maiin">
       <BrowserRouter>
-            <Routes>
+            <Routes {process.env.PUBLIC_URL}>
             <Route path="/" element={<Home/>}/>
             <Route index element={<Home/>}/>
             <Route path="Home" element={<Home/>}/>
