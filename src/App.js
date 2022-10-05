@@ -17,8 +17,8 @@ function App() {
       <Menu />
       </span>
       <span class="maiin">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
-            <Routes basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="https://profound-fox-c71c66.netlify.app">
+            <Routes >
             <Route path="/" element={<Home/>}/>
             <Route index element={<Home/>}/>
             <Route path="Home" element={<Home/>}/>
