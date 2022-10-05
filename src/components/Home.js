@@ -4,6 +4,9 @@ import profile from '../assets/profile.png';
 function Home() {
     return (
         <section id="home">
+        <div class="profile">
+                <img src={profile} alt="Profile | RAHUL VERMAN" class= "profileimg"/>
+            </div>
             <div class="homeblog">
                 <div class="hometitle">Hello, my name is <i class="colo naam" >RAHUL VERMAN</i></div>
                 <div class="hometitle">I'm a <span class="colo">Web Developer</span> &amp;<span class="colo"> Software Engineer</span>|</div>
@@ -13,9 +16,7 @@ function Home() {
                 <button class="btn fill">More About Me</button>
                 <button class="btn">Contact Me</button>
             </div>
-            <div class="profile">
-                <img src={profile} alt="Profile | RAHUL VERMAN" class= "profileimg"/>
-            </div>
+            
         </section>
     );
 }
