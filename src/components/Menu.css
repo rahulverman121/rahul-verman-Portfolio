@@ -1,8 +1,8 @@
 #menu {
     
-    padding: 5.5rem 0 2.5rem 0;
-    width : 17rem;
     
+    width : 17rem;
+    height : 100% ;
     background : rgba(0,0,0,0.87);
     font-weight: 700;
     color : #fff ; 
@@ -10,7 +10,6 @@
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    position: sticky;
     border-right: 1px double #000;
 }
 .logo {
