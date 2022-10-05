@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://profound-fox-c71c66.netlify.app/",
   "eslintConfig": {
     "extends": [
       "react-app",
