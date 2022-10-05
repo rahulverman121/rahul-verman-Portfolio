@@ -10,9 +10,13 @@
 }
 .menuu {
   position: fixed;
+  height : 100% ;
+  
 }
 .maiin {
   margin-left: 17rem;
+  height : 100% ;
+  position: absolute;
   
 }
 
