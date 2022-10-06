@@ -89,6 +89,9 @@ function About() {
                 <h3>Backend Technologies</h3>
                 <SiPhp title="php" color="#697ab1" class="skillicon"/>
                 <br/>
+                <h3>Mobile Development</h3>
+                <FaReact  title="React Native" color="#5ed3f3" class="skillicon"/>
+                <br/>
                 <h3>Operating Systems</h3>
                 <SiWindows title="Windows" color="#00a8e8" class="skillicon"/>
                 <SiUbuntu title="Ubuntu" color="#e24e0e" class="skillicon"/>
