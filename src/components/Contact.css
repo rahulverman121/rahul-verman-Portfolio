@@ -1,0 +1,30 @@
+#contact {
+    background: var(--bgblack);
+    color: var(--textwhite);
+    padding :  5rem 5rem ;
+    
+}
+.contacs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.contac {
+    padding : 2rem ;
+    color : var(--textwhite);
+    border : 0.1rem solid var(--themecolor);
+    border-radius: 1rem ;
+    display: flex;
+    width : 25% ;
+    margin : 2rem 2rem ;
+    flex-direction: column;
+    cursor : pointer ;
+    justify-content: center;
+    align-items: center;
+}
+.contactitle {
+    margin-top: 1.4rem ;
+}
+.contac:hover {
+    box-shadow: 0 0 0.5rem var(--textwhite);
+}
