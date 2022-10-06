@@ -1,0 +1,51 @@
+#achivements {
+    background: var(--bgblack);
+    color : var(--textwhite) ;
+    padding : 3rem 2rem ;
+    
+}
+.card {
+    border: 0.1rem solid #000;
+    padding: 2rem ;
+    margin :2.5rem 2rem  ;
+    width : 35% ;
+    cursor : pointer ;
+    
+    background: var(--themecolor);
+    box-shadow: 0 0 0.3rem var(--textwhite);
+    border-radius: 1.5rem ;
+    transition: padding 1s;
+    text-decoration: none;
+    
+}
+.card:hover {
+    padding : 2.5rem ;
+    box-shadow: 0 0 0.8rem var(--textwhite);
+    color : var(--bloodred) ;
+    opacity: 1;
+}
+.cardtitle {
+    font-size: 1.2rem ;
+    font-weight: 600;
+    
+}
+.cardissuer {
+    font-size: 0.8rem ;
+    margin-top : 0.8rem;
+}
+.cardissuer::before {
+    content: "- ";
+}
+.issue {
+    margin-top : 1rem ;
+
+
+}
+.cards {
+    display: flex;
+    flex-wrap : wrap;
+}
+
+.expiry {
+    margin-bottom: 1.5rem;
+}
