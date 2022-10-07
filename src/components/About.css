@@ -95,7 +95,7 @@ a {
 
 }
 .quali:hover {
-    box-shadow: 0 0 0.9rem var(--textwhite);
+    box-shadow: 0 0 0.8rem var(--textwhite);
     padding: 1.7rem;
 }
 .institute {
