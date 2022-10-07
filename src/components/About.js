@@ -1,6 +1,6 @@
 import './About.css';
 import {FaAngular, FaCss3Alt, FaHtml5, FaReact, FaPython} from 'react-icons/fa';
-import { SiCloudera, SiCplusplus, SiGithub, SiGnubash, SiJava, SiJavascript, SiJquery, SiJson, SiKalilinux, SiMongodb, SiMysql, SiNetlify, SiPhp, SiTypescript, SiUbuntu, SiVisualstudiocode, SiWindows } from 'react-icons/si';
+import { SiCloudera, SiCplusplus, SiEclipseide, SiGithub, SiGnubash, SiJava, SiJavascript, SiJquery, SiJson, SiJupyter, SiKalilinux, SiMongodb, SiMysql, SiNetlify, SiPhp, SiTypescript, SiUbuntu, SiVisualstudiocode, SiWindows, SiXampp } from 'react-icons/si';
 import {FcLinux} from 'react-icons/fc';
 
 function About() {
@@ -103,6 +103,9 @@ function About() {
                 <SiNetlify title="MongoDB" color="#48aabf" class="skillicon"/>
                 <SiGithub title="Github" color="#fff" class="skillicon"/>
                 <SiVisualstudiocode title="Visual Studio Code" color="#3aa3e9" class="skillicon"/>
+                <SiJupyter title="Jupyter" color="#f37726" class="skillicon"/>
+                <SiEclipseide title="Eclipse" color="#2b2152" class="skillicon"/> 
+                <SiXampp title="Xampp" color="#e15f0f" class="skillicon"/>
             </div>
             </section>
         </section>
