@@ -1,0 +1,9 @@
+.footer {
+    height : 8rem ;
+    color : var(--textwhite) ;
+    background: var(--bgcolor);
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
