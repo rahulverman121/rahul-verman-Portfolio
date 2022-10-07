@@ -91,6 +91,12 @@ a {
     box-shadow: 0 0 0.3rem var(--textwhite);
     border-radius: 1.5rem;
     min-width: 35% ;
+    cursor: pointer;
+
+}
+.quali:hover {
+    box-shadow: 0 0 0.9rem var(--textwhite);
+    padding: 1.7rem;
 }
 .institute {
     font-size: 1.2rem ;
