@@ -39,6 +39,9 @@
     margin-bottom: 0.7rem ;
     margin-right: 2.5rem;
 }
+a {
+    text-decoration: none;
+}
 .abtdetail {
     font-weight: 600;
 }
