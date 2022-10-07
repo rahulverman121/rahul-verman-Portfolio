@@ -21,7 +21,7 @@ function Certi(param) {
 function Badge(param) {
     return (
         <div className='card'>
-            <div className='cardtitle'>{param.title}
+            <div className='cardtitle'>{param.title}&nbsp;
             <FaStar color="#ffd700"/><FaStar color="#ffd700"/><FaStar color="#ffd700"/><FaStar color="#ffd700"/>
             <FaStar color="#ffd700"/>
             </div>
@@ -37,7 +37,7 @@ function Achivements() {
             <section class="cards ">
             <div className='card'>
             
-            <div className='cardtitle'>Winner in UI/UX Development Challenege
+            <div className='cardtitle'>Winner in UI/UX Development Challenege&nbsp;
             <GiLaurelsTrophy  size="1.8rem" color="#ffd700"/>
             </div>
             <i className='cardissuer' width="100%" align="right">SDC Club (MVJCE)</i><br/>
@@ -46,7 +46,7 @@ function Achivements() {
             
             </div>
             <div className='card'>
-            <div className='cardtitle'>Top Performer in HackForEt Hackathon
+            <div className='cardtitle'>Top Performer in HackForEt Hackathon&nbsp;
             <GiPodiumWinner size="2rem" color="#ffd700"/>
             </div>
             <i className='cardissuer' width="100%" align="right">CodeChef | CMRTC</i><br/>
