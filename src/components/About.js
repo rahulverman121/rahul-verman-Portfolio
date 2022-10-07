@@ -48,6 +48,10 @@ function About() {
                  </div> 
                                
             </div>
+            <div style={{display:'flex',flexWrap:'wrap'}}>
+            <a target="_blank" rel="noopener noreferrer" class="btn" style={{marginRight:'1rem',marginTop:'2rem'}}>Download Resume</a>
+            <a target="_blank" rel="noopener noreferrer" class="btn fill" style={{marginRight:'1rem',marginTop:'2rem'}}>Hire Me</a>
+            </div>
             <div className='skilltitle soft'>Soft Skills</div>
             <div className='softskills'>
             <span className='softskill'>Problem Solving</span>
