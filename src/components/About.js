@@ -2,6 +2,7 @@ import './About.css';
 import {FaAngular, FaCss3Alt, FaHtml5, FaReact, FaPython} from 'react-icons/fa';
 import { SiCloudera, SiCplusplus, SiEclipseide, SiGithub, SiGnubash, SiJava, SiJavascript, SiJquery, SiJson, SiJupyter, SiKalilinux, SiMongodb, SiMysql, SiNetlify, SiPhp, SiTypescript, SiUbuntu, SiVisualstudiocode, SiWindows, SiXampp } from 'react-icons/si';
 import {FcLinux} from 'react-icons/fc';
+import resume from '../assets/RahulVerman-Resume.pdf';
 
 function About() {
     return(
@@ -49,8 +50,8 @@ function About() {
                                
             </div>
             <div style={{display:'flex',flexWrap:'wrap'}}>
-            <a target="_blank" rel="noopener noreferrer" class="btn" style={{marginRight:'1rem',marginTop:'2rem'}}>Download Resume</a>
-            <a target="_blank" rel="noopener noreferrer" class="btn fill" style={{marginRight:'1rem',marginTop:'2rem'}}>Hire Me</a>
+            <a href={resume} target="_blank" rel="noopener noreferrer" class="btn" style={{marginRight:'1rem',marginTop:'2rem'}}>Download Resume</a>
+            <a href="./contact" target="_blank" rel="noopener noreferrer" class="btn fill" style={{marginRight:'1rem',marginTop:'2rem'}}>Hire Me</a>
             </div>
             <div className='skilltitle soft'>Soft Skills</div>
             <div className='softskills'>
