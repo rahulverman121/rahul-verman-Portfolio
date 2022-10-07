@@ -2,6 +2,7 @@
   --themecolor : #d4aa8c ;
   --textwhite : #fff ; 
   --bgblack : rgba(0,0,0,0.9);
+  --bloodred : #a00e00 ;
 }
 .App {
   display: flex;
