@@ -15,6 +15,7 @@ function About() {
             development and programming skills. I also have excellent experience of leading the team and working with them. AS team leader, I won first prize in UI/UX Development challenge 
             and top performer in HackForEt Hackathon organized by CodeChef | CMRTC.
             </div>
+            
             <section className='detailsec'>
                 <div className='abt'>
                 <div className='skilltitle '>Personal Details</div>
@@ -112,6 +113,31 @@ function About() {
                 <SiEclipseide title="Eclipse" color="#2b2152" class="skillicon"/> 
                 <SiXampp title="Xampp" color="#e15f0f" class="skillicon"/>
             </div>
+            </section>
+            <div className='skilltitle ' >Qualification</div>
+            <section className='qualification'>
+
+                <div className='quali'>
+                <div className="institute">MVJ College of Engineering, Bangalore</div>
+                    <div className="degree">Bachelor of Engineering - BE</div>
+                    <div className='branch'>Computer Science and Engineering</div> 
+                    <div className="year">2019-2023</div>
+                    <div className="grade"><strong>Grade : </strong>9.5 sgpa</div>
+                </div>
+                <div className='quali'>
+                <div className="institute">Holy Cross School, Hazaribag</div>
+                    <div className="degree">Intermediate (12th)</div>
+                    <div className='branch'>Science - CS</div> 
+                    <div className="year">2017-2018</div>
+                    
+                </div>
+                <div className='quali'>
+                <div className="institute">DAV Public School, Barhi</div>
+                    <div className="degree">Matriculate (10th)</div>
+                    <div className='branch'>Science</div> 
+                    <div className="year">2015-2016</div>
+                    <div className="grade"><strong>Grade : </strong>8.2cgpa</div>
+                </div>
             </section>
         </section>
     );

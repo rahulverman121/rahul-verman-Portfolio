@@ -21,7 +21,11 @@
 }
 .detailsec {
     display: flex;
-    margin-top: 2.5rem ;
+    margin: 2.5rem 0;
+
+}
+a {
+    text-decoration: none;
 }
 .aboutblog {
     font-size: 1.1rem ;
@@ -39,9 +43,6 @@
     margin-bottom: 0.7rem ;
     margin-right: 2.5rem;
 }
-a {
-    text-decoration: none;
-}
 .abtdetail {
     font-weight: 600;
 }
@@ -55,7 +56,7 @@ a {
     margin-bottom: 2rem ;
 }
 .soft {
-    margin-top: 4.5rem;
+    margin-top: 5rem;
 }
 .skillicon {
     margin-right: 1rem;
@@ -74,4 +75,33 @@ a {
     margin : 0.5rem 1rem 1.1rem 0 ;
     
     cursor : pointer ;
+}
+.qualification {
+    
+    margin : 3rem 0 ;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.quali {
+    padding : 1.5rem ;
+    margin : 1.5rem 1.5rem ;
+    border : 0.1rem solid var(--themecolor) ;
+    background: #000;
+    box-shadow: 0 0 0.3rem var(--textwhite);
+    border-radius: 1.5rem;
+    min-width: 35% ;
+}
+.institute {
+    font-size: 1.2rem ;
+    font-weight: 600;
+}
+.branch::before {
+    content: "(";
+}
+.branch::after {
+    content: ")";
+}
+.grade {
+    margin-top : 1rem ; 
 }
