@@ -6,7 +6,7 @@ import {SiGmail } from "react-icons/si";
 function Menu() {
     return (
         <section id="menu">
-            <div class="logo">RV</div>
+            <a href="/" class="logo" target="_blank" rel="noopener noreferrer">RV</a>
             <section class="menuitems">
             <a href="./home" class="menuitem"><FaHome size="1.1rem" class="menuicon"/>Home</a>
             <a href="./about" class="menuitem"><FaIdCard size="1.1rem" class="menuicon"/>About</a>
