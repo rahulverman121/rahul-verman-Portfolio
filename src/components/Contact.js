@@ -1,6 +1,7 @@
 import './Contact.css';
 import {SiGmail, SiWhatsapp} from 'react-icons/si';
 import {BsTelephoneFill} from 'react-icons/bs';
+import Footer from './Footer';
 
 function Contact() {
     return (
@@ -24,7 +25,7 @@ function Contact() {
                 <div className='contactitle'>+91 8904323240</div>
               </a>
             </section>
-            
+            <Footer />
         </section>
     )
 }
